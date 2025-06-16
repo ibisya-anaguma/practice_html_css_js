@@ -17,4 +17,5 @@ button.addEventListener('click', () => {
 bom.addEventListener('click', () => {
     Div.textContent = '';
     bom.style.display = 'none';
+    location.reload();
 });
